@@ -1,0 +1,167 @@
+* {
+    /* zerar todo o padding margin e box sizing do navegador */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* cor do texto */
+    color: black;
+    /* garante espaço interno */
+    padding: 1rem;
+    /* cor de fundo meio cinza com um pouco de transparencia */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* borda branca */
+    border: 2px solid white;
+    /* borda arrendodada */
+    border-radius: 10px;
+    /* centralizar texto */
+    text-align: center;
+    /* definir largura maxima para nao ocupar mais do que o desejado */
+    max-width: 80%;
+    /* centraliza e da espaçamento vertical */
+    margin: 2rem auto;
+    /* adiciona uma sombra a caixa */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.welcome img {
+    /* altera o display */
+    display: flex;
+
+    /* alinha os itens no container ao longo do eixo horizontal */
+    justify-content: center;
+
+    /* alinha os itens no container ao longo do eixo vertical */
+    align-items: center;
+
+    /* adiciona o espaço em volta do elemento */
+    margin: auto;
+    
+    /* especificar altura com medidas interativas */
+    height: 70vh;
+
+    /* especificar o tamanho para ser sempre 100% do tamanho original da imagem */
+    max-width: 100%;
+
+    /* adiciona uma margem somente para a parte debaixo */
+    margin-bottom: 20px;
+}
+
+
+html,
+body {
+    /* cor de fundo degrade do background */
+    background: linear-gradient(135deg, #6b2080, #e09bbf, #f6d365);
+
+    /* especificar um tamanho minimo para a div */
+    min-height: 100vh;
+
+    /* altera o display */
+    display: flex;
+
+    /* altera a direção dos itens dentro do container para coluna*/
+    flex-direction: column;
+
+    /* altera o tamanho da fonte */
+    font-size: 16px;
+
+    /* determina o espaçamento vertical entre os elementos */
+    line-height: 1.6;
+
+    /* adiciona o espaço em volta do elemento */
+    margin: 0;
+
+    /* garante espaço interno */
+    padding: 0;
+}
+
+
+.welcome_text {
+    /* adiciona uma borda ao topo do container */
+    border-top: 8rem;
+
+    /* adiciona uma borda em branco */
+    border: 1px solid white;
+
+    /* arredonda a borda */
+    border-radius: 10px;
+}
+
+
+body {
+    /* altera o display */
+    display: flex;
+
+    /* altera a direção dos itens dentro do container para coluna*/
+    flex-direction: column;
+
+    /* especifica a altura minima do container */
+    min-height: 100vh;
+
+    /* especifica a cor de fundo */
+    background-color: #6b2080;
+
+    /* especifica o tamanho da fonte */
+    font-size: 16px;
+
+    /* determina o espaçamento vertical entre os elementos */
+    line-height: 1.6;
+}
+
+main {
+    /* altera o display do container para o display selecionado */
+    display: flex;
+    
+    /* altera a direção dos itens dentro do container para coluna*/
+    flex-direction: column;
+
+    /* alinha os itens no container ao longo do eixo horizontal */
+    justify-content: center;
+    
+    /* alinha os itens no container ao longo do eixo vertical */
+    align-items: center;
+   
+}
+
+footer {
+    /* altera o display do container para o display selecionado */
+    display: flex;
+
+    /* alinha os itens no container ao longo do eixo horizontal */ 
+    justify-content: center;
+
+    /* especifica a largura do elemento */
+    width: 99vw;
+
+    /* especifica a altura do elemento */
+    height: 3.3vh;
+
+    /* especifica a cor do background */
+    background-color: white;
+}
+
+
+#acai-order {
+    /* garantir a responsividade */
+    width: 100%;    
+
+    /* limita do tamanho */
+    max-width: 600px;
+
+    /* garante a centralização */
+    margin: 2rem auto;
+
+    /* garange o espaço interno */
+    padding: 2rem;
+    
+    /* cor de fundo */
+    background-color: #fff;
+
+    /* arredonda a borda */
+    border-radius: 10px;
+
+    /* recomendado para evitar overflow */
+    overflow: hidden;
+}

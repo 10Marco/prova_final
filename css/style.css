@@ -1,0 +1,140 @@
+* {
+    /* zerando padding margin e boxsizing do browser */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /* cor de fundo degrade do background */
+    background: linear-gradient(135deg, #6b2080, #e09bbf, #f6d365);
+
+    color: white;
+}
+
+body {
+    /* cor de fundo degrade do background */
+    background: linear-gradient(135deg, #6b2080, #e09bbf, #f6d365);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.navbar-nav {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome-box, .text-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+/* Estilo para a imagem e texto dentro da welcome box */
+.welcome-img-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-img-box img {
+    max-width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.welcome-text-box h1 {
+    color: #6b2080;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Estilo para os textos das seções */
+.text-box h3 {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Para centralizar o conteúdo */
+.text-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.cardsAcai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw; 
+    margin: 0 auto;  
+}
+
+.card-1 {
+    align-self: flex-start;
+}
+
+.card-2 {
+    align-self: center;
+}
+
+.card-3 {
+    align-self: flex-end;
+}
+
+.card-4 {
+    align-self: baseline;
+}
+
+#acai-order {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #333;
+}
+
+#totalPrice {
+    font-weight: bold;
+    color: #6b2080;
+}
+
+/* Efeito AOS para cada card */
+[data-aos] {
+    opacity: 0;
+    /* Começa invisível */
+    transition: opacity 0.5s ease;
+    /* Transição suave para aparecer */
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+    /* Torna visível quando a animação ocorre */
+}
+
+
+
+/* .card:hover {
+    transform: translateY(-10px);
+    /* Levanta o card ao passar o mouse */
+
+/* .parallax {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    background: #f0f0f0;
+} */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    height: 3.3vh;
+    background-color: white;
+}
