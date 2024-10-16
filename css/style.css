@@ -8,7 +8,6 @@
 main {
     /* cor de fundo degrade do background */
     background: linear-gradient(135deg, #6b2080, #e09bbf, #f6d365);
-
     color: white;
 }
 
